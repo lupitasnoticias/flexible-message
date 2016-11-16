@@ -21,7 +21,13 @@ h1,h2,h3{
 
 p{
 	font-family: 'Catamaran', sans-serif;
+	font-size: 1.3em;
 }
+
+.box{ 
+	max-width: 340px;
+	display: block;
+ }
 
 .description{
   max-width: 960px;
@@ -30,7 +36,7 @@ p{
 }
 
 .main-content{
-	display: block;
+	display: inline;
 }
 
 .flex{
@@ -39,6 +45,7 @@ p{
   -webkit-display: flex;
   -ms-display: flexbox;
   display: flex;
+  display: row-nowrap;
 }
 
 .flex section {
